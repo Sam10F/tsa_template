@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"mi",
+				"mi_carro"
+			],
+			[
+				"pro",
+				"productos"
+			],
+			[
+				"prue",
+				"prueba3"
+			],
+			[
+				"va",
+				"valor2"
+			],
+			[
+				"test",
+				"testStatic"
+			],
+			[
+				"var",
+				"variableLocal1"
+			],
+			[
+				"val",
+				"valor"
+			],
+			[
+				"mya",
+				"miArraySinClave"
+			],
+			[
+				"m",
+				"miArray"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"mia",
+				"miArraySinClave"
+			],
+			[
+				"PA",
+				"PATHINFO_BASENAME"
+			],
+			[
+				"PAT",
+				"PATHINFO_DIRNAME"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"margn",
+				"margin-top\tproperty"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"textco",
+				"text-decoration\tproperty"
+			],
+			[
+				"a",
+				"auto\tmargin-right"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"data",
+				"dataEdit"
+			],
+			[
+				"new",
+				"newvalues"
+			],
+			[
+				"s",
+				"schema"
+			],
+			[
+				"ca",
+				"callback"
+			],
+			[
+				"da",
+				"dataSignUp"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"us",
+				"usrExistente"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"usr",
+				"usrExistente"
+			],
+			[
+				"mail",
+				"mailExistente"
+			],
+			[
+				"use",
+				"userExist"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 239.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"http://wbond.net/sublime_packages/package_control/installation",
+			"ls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/samuel10/Sites/samuel10f"
+	],
+	"file_history":
+	[
+		"/Users/samuel10/Documents/Sites/samuel10f/Controllers/userController.php",
+		"/Users/samuel10/Documents/Sites/samuel10f/index.php",
+		"/Users/samuel10/Documents/Sites/samuel10f/models/layout.php",
+		"/Users/samuel10/Documents/Sites/samuel10f/routes.php",
+		"/Users/samuel10/Documents/Sites/samuel10f/controllers/user_controller.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/callbacks.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/arrays.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/punteros.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/funciones.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/pruebas.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/nameSpaces.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/ENV.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/ns_math.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/medn.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/FILES.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/FILES_2.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/POST_2.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/POST.php",
+		"/Users/samuel10/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cursoPHP/hola_mundo.php",
+		"/Users/samuel10/Desktop/Codigo/code/handlers/myhandler.js",
+		"/Users/samuel10/Desktop/Codigo/code/index.js",
+		"/Users/samuel10/Desktop/TFG/TFGApp-master/Server/server/package-lock.json",
+		"/Users/samuel10/Desktop/TFG/TFGApp-master/Server/server/handlers/myhandler.js",
+		"/Users/samuel10/Desktop/TFG/TFGApp-master/Server/server/index.js",
+		"/Users/samuel10/Desktop/TFG/TFGApp-master/Server/server/data/db.js",
+		"/Users/samuel10/Desktop/TFG/TFGApp-master/Server/server/data/data.js",
+		"/private/var/folders/p6/2mhwnwl52qvdt95jb1g4_vph0000gn/T/fz3temp-2/style.css",
+		"/private/var/folders/p6/2mhwnwl52qvdt95jb1g4_vph0000gn/T/fz3temp-2/style 2.css",
+		"/private/var/folders/p6/2mhwnwl52qvdt95jb1g4_vph0000gn/T/fz3temp-2/style 3.css",
+		"/private/var/folders/p6/2mhwnwl52qvdt95jb1g4_vph0000gn/T/fz3temp-2/.htaccess",
+		"/private/var/folders/p6/2mhwnwl52qvdt95jb1g4_vph0000gn/T/fz3temp-2/rtl.css",
+		"/Users/samuel10/Downloads/horse-chess-master(JavaScript)/index.html",
+		"/Users/samuel10/Downloads/horse-chess-master(JavaScript)/css/normalize.css",
+		"/Users/samuel10/Downloads/horse-chess-master(JavaScript)/css/style.css",
+		"/Users/samuel10/Downloads/horse-chess-master(JavaScript)/js/autoplay.js",
+		"/Users/samuel10/Downloads/horse-chess-master(JavaScript)/js/autosamy.js",
+		"/Users/samuel10/Desktop/style.css",
+		"/Users/samuel10/Desktop/sda.html",
+		"/Users/samuel10/Downloads/default.php",
+		"/Users/samuel10/Desktop/dyadikos/CSS/mainStl.css",
+		"/Users/samuel10/Desktop/dyadikos/main.html",
+		"/Users/samuel10/Desktop/untitled.html",
+		"/Users/samuel10/Desktop/TFGApp/Server/server/package.json",
+		"/Users/samuel10/Desktop/TFGApp/Server/server/data/db.js",
+		"/Users/samuel10/Desktop/TFGApp/Server/server/index.js",
+		"/Users/samuel10/Desktop/TFGApp/Server/server/data/data.js",
+		"/Users/samuel10/Desktop/TFGApp/Server/server/handlers/myhandler.js",
+		"/Users/samuel10/Desktop/TFGApp/Server/static/js/angular.min.js",
+		"/Users/samuel10/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/samuel10/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "samuel10f-project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$$postDigest"
+			]
+		],
+		"width": 404.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
