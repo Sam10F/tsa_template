@@ -204,11 +204,31 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "Controllers/userController.php",
 			"settings":
 			{
-				"buffer_size": 131,
+				"buffer_size": 580,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 675,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "you are in the test branchdsd",
+			"file": "you are in the test branch",
+			"file_size": 26,
+			"file_write_time": 132227872168492849,
+			"settings":
+			{
+				"buffer_size": 29,
 				"line_ending": "Unix"
 			}
 		}
@@ -268,6 +288,9 @@
 	],
 	"file_history":
 	[
+		"/Users/samuel10/Sites/samuel10f/you are in the test branch",
+		"/Users/samuel10/Sites/samuel10f/README.md",
+		"/Library/WebServer/Documents/index.html.en",
 		"/Users/samuel10/Documents/Sites/samuel10f/Controllers/userController.php",
 		"/Users/samuel10/Documents/Sites/samuel10f/index.php",
 		"/Users/samuel10/Documents/Sites/samuel10f/models/layout.php",
@@ -352,29 +375,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "Controllers/userController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 131,
+						"buffer_size": 580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								131,
-								131
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "you are in the test branch",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -445,7 +526,7 @@
 		[
 			[
 				"",
-				"~/Sites/samuel10f/samuel10f-workspace.sublime-workspace"
+				"~/Sites/samuel10f/samuel10f-project.sublime-project"
 			]
 		],
 		"width": 380.0

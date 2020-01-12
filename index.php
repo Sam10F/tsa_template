@@ -5,7 +5,6 @@ $message = $con->query("SELECT nickName FROM testTable")->fetch_object()->nickNa
 $con->close();
 echo "$message <br/>";
 echo "Hello From Sites Folder!";
-exit();
 
 
 	// la variable controller guarda el nombre del controlador y action guarda la acción por ejemplo registrar 
