@@ -1,6 +1,6 @@
 <?php 
 
-$con = new mysqli("127.0.0.1", "root", "samuel88", "MVC");
+$con = new mysqli("127.0.0.1", "root", "samuel88", "MVC"); 
 $message = $con->query("SELECT nickname FROM users")->fetch_object()->nickname;
 $con->close();
 echo "$message <br/>";
