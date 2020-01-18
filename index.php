@@ -17,5 +17,5 @@ echo "Hello From Sites Folder with the user" . $message . "!";
 		$action='index';
 	}	
 	//carga la vista layout.php
-	require_once('Views/layout.php');
+	// require_once('Views/layout.php');
 ?>
