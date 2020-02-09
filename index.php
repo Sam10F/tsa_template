@@ -1,21 +1,45 @@
-<?php 
+<?php
+require_once("Controllers/BaseController.php");
 
-$con = new mysqli("127.0.0.1", "root", "samuel88", "MVC"); 
-$message = $con->query("SELECT nickname FROM users")->fetch_object()->nickname;
-$con->close();
-echo "$message <br/>";
-echo "Hello From Sites Folder with the user" . $message . "!";
+$controller = ($_GET["controller"]) ? $_GET["controller"] : CONTROLADOR_DEFECTO;
+if(isset($_GET["controller"])){
+    $controllerObj=loadController($_GET["controller"]);
+    startAction($controllerObj);
+}else{
+    $controllerObj=loadController(CONTROLADOR_DEFECTO);
+    startAction($controllerObj);
+}
 
-
-	// la variable controller guarda el nombre del controlador y action guarda la acción por ejemplo registrar 
-	//si la variable controller y action son pasadas por la url desde layout.php entran en el if
-	if (isset($_GET['controller']) && isset($_GET['action'])) {
-		$controller=$_GET['controller'];
-		$action=$_GET['action'];
-	} else {
-		$controller='user';
-		$action='index';
-	}	
-	//carga la vista layout.php
-	// require_once('Views/layout.php');
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ese</title>
+    <!-- FIX (404) favicon.ico -->
+    <link rel="shortcut icon" href="#" />
+
+    <!--  EXTRA CSS  -->
+    <link rel="stylesheet" type="text/css" href="<?= ROOT ?>Dist/extra//css/normalize.css" />
+
+    <!--  BASIC CSS  -->
+    <link rel="stylesheet" type="text/css" href="<?= ROOT ?>Dist/css/_footer.css" />
+    <link rel="stylesheet" type="text/css" href="<?= ROOT ?>Dist/css/_header.css" />
+    <link rel="stylesheet" type="text/css" href="<?= ROOT ?>Dist/css/custom.css" />
+
+    <!-- CUSTOM CSS   -->
+    <link rel="stylesheet" type="text/css" href="<?= ROOT ?>Dist/css/views/<?= $controller ?>.css" />
+
+</head>
+<body>
+<? require_once('_header.php'); ?>
+
+<section id="render-section">
+    <? require_once("Views/" . $controller . ".php")?>
+</section>
+
+
+<? require_once('_footer.php'); ?>
+</body>
+</html>
