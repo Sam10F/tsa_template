@@ -1,6 +1,6 @@
 <?php
 include_once("BaseModel.php");
-class PageModel extends BaseModel
+class TestModel extends BaseModel
 {
     public function getName()
     {

@@ -1,0 +1,13 @@
+#SET THE DIRECTORY INDEX
+#DirectoryIndex Config/routes.php
+
+# This allows you to redirect index.html to a specific subfolder
+#Redirect /MVC_Template/test /MVC_Template/Config/routes.php
+
+RewriteEngine ON
+
+#Solve the problem that I had in master where the css where not being included.
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Push every request to index.php
+RewriteRule ^(.*)$ index.php [QSA]

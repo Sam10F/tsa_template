@@ -1,5 +1,7 @@
 <?php
-define("ROOT", "/samuel10f/");
-define("CONTROLADOR_DEFECTO", "Page");
+define("ROOT", "/MVC_Template/");
+
+define("CONTROLADOR_DEFECTO", "P404");
+
 define("ACCION_DEFECTO", "index");
 
