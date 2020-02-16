@@ -1,6 +1,5 @@
-<section id="main-section">
+<section id="main-section" class="extra-padding">
 
-     <p class="clickMe">Click Me!</p>
-
+     <p class="clickMe">lets make a post.</p>
 
 </section>

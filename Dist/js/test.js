@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
     $('p.clickMe').on('click', function() {
-        console.log('Yeah!');
+        $.post(window.location.pathname, {testPost: 'testPost'}, function () {
+            console.log('ola kala');
+        })
     })
 
 });

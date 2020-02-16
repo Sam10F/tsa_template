@@ -1,8 +1,50 @@
-html, body{
-    height: 100%;
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 120px;
+}
+
+.extra-padding{
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 #render-section{
     width: 100%;
-    height: fit-content;
+    margin-top: 80px;
+    min-height: 729px;
+    padding-bottom: 40px;
+}
+
+.title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 969px) {
+    .container{
+        padding: 0 60px;
+    }
 }
