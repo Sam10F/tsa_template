@@ -34,10 +34,9 @@
 </head>
 <body>
 <? include '_header.php'; ?>
-
-<section id="render-section" class="container">
-<? require_once("Views/" . $this->data['view'] . ".php"); ?>
-</section>
+<main id="render-main" class="container">
+    <? require_once("Views/" . $this->data['view'] . ".php"); ?>
+</main>
 
 
 <? require_once('_footer.php'); ?>

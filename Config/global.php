@@ -1,9 +1,9 @@
 <?php
 define("COMPANY_NAME", "10f");
 
-define("PAGE_NAME", "MVC_Template");
+define("PAGE_NAME", "tsa_template");
 
-define("ROOT", "/MVC_Template/");
+define("ROOT", "/tsa_template/");
 
 define("CONTROLADOR_DEFECTO", "P404");
 

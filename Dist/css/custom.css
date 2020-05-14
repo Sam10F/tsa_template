@@ -1,4 +1,14 @@
+h2{
+    text-align: center;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size: 38px;
+}
 
+p{
+    font-size: 18px;
+    font-family: 'Tahoma';
+}
 
 a:link {
     text-decoration: none;
@@ -14,12 +24,39 @@ a{
 
 a:hover {
     color: black;
-    font-weight: bold;
     text-decoration: none;
 }
 
 a:active {
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul.list-of-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+ul.list-of-products > li{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+ul.list-of-products a{
+    width: 240px;
+    display: block;
+}
+
+ul.list-of-products img{
+    height: 240px;
+    border: 1px solid #ccc;
 }
 
 .container{
@@ -31,9 +68,9 @@ a:active {
     padding-top: 15px;
 }
 
-#render-section{
-    width: 100%;
-    margin-top: 80px;
+main#render-main{
+    max-width: 1800px;
+    margin-top: 150px;
     min-height: 729px;
     padding-bottom: 40px;
 }
@@ -41,6 +78,13 @@ a:active {
 .title{
     font-weight: bold;
     text-decoration: underline;
+}
+
+/*CUSTOM CLASS*/
+.flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 969px) {

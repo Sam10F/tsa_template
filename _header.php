@@ -1,22 +1,50 @@
 <?php
 
 $header = [
-        'HOME' => ROOT,
-        'TEST' => ROOT . 'test'
+        'HOME' => [
+                'url' => ROOT
+        ],
+
+        'TEST' => [
+                'url' => ROOT . 'test',
+                'links' => [
+                        'link1' => '#',
+                        'link2' => '#',
+                        'link3link3link3' => '#'
+                ]
+        ]
 ]
 
 ?>
 
-<header id="myHeader"n class="container">
-<!--    <div class="row">-->
-        <div id="logo_container" class="col-xs-4">
+<header id="mainHeader">
+    <ul>
+        <li id="logo_container">
             <a class="logo" href="<?= ROOT ?>"> <?= PAGE_NAME ?> </a>
-            <p class="logo_subtitle"> By Samuel10F </p>
-        </div>
-        <div id="sections-container" class="col-xs-8">
-            <? foreach($header as $name => $href){ ?>
-                <a class="section" href="<?= $href ?>"><?= $name ?></a>
-            <? } ?>
-        </div>
-<!--    </div>-->
+        </li>
+        <li id="sections-container">
+            <ul id="menu">
+                <? foreach($header as $name => $content){ ?>
+                    <li>
+                        <? ($content['links']) ? $withSubmenu = true : $withSubmenu = false; ?>
+                        <a class="section <?= $withSubmenu ? 'withSubmenu' : '' ?>"
+                           href="<?= $content['url'] ?>">
+                            <?= $name ?>
+                        </a>
+                        <? if($withSubmenu){ ?>
+                            <ul id="subMenu">
+                                <? foreach($content['links'] as $subName => $url) { ?>
+                                    <li>
+                                        <a class="section" href="<?= $url ?>">
+                                            <?= $subName ?>
+                                        </a>
+                                    </li>
+                                <? } ?>
+                            </ul>
+                        <? } ?>
+                    </li>
+                <? } ?>
+            </ul>
+        </li>
+    </ul>
 </header>

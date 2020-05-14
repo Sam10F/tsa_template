@@ -1,35 +1,92 @@
-#myHeader{
+header#mainHeader{
     position: fixed;
     width: 100%;
-    height: 80px;
-    border-bottom: 8px solid #e8e8e8;
     background-color: #FFFFFF;
     z-index: 999;
     top: 0;
+}
+
+header#mainHeader > ul > li{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+li#logo_container{
+    height: 100px;
+}
+
+li#sections-container {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+li#sections-container > ul{
+    height: 100%;
+    padding-top: 10px;
+}
+
+li#sections-container > ul > li {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 110px;
+}
+
+ul#subMenu > li{
+    padding: 10px 30px 10px 0;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+li#sections-container ul#subMenu {
+    display: none;
+}
+
+li#sections-container ul > li:hover ul#subMenu{
+    display: block;
+    position: absolute;
+    top: 38px;
+    background-color: white;
 }
 
 .logo{
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-.logo_subtitle{
-    margin-bottom: 0px;
-}
-
-#sections-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.section{
-    margin-bottom: 0px;
+ul a.section{
+    margin-bottom: 0;
     font-size: 18px;
     cursor: pointer;
-    padding: 0px 30px;
+    padding: 0 30px;
+    position: relative;
+    height: 100%;
+    display: block;
+}
+
+ul#menu > li > a.section{
+    position: absolute;
+}
+
+li#sections-container ul > li:hover > a{
+    font-weight: bold;
+}
+
+li#sections-container ul > li:hover > a.withSubmenu::after{
+    transform: translateY(-48%) rotate(45deg);
+}
+
+li#sections-container  a.withSubmenu::after{
+    content: "";
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    position: absolute;
+    top: 12px;
+    transform: translateY(-48%) rotate(-45deg);
+    transition: transform 0.3s ease-in-out;
+    right: 12px;
 }

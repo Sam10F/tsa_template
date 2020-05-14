@@ -10,7 +10,9 @@ class HomeController extends BaseController
         $js = ['home.js'];
         $css = ['home.css'];
 
-        return ['js' => $js, 'css' => $css, 'meta_data' => $meta_data, 'view' => 'home'];
+        $products = $model->getProducts();
+
+        return ['js' => $js, 'css' => $css, 'meta_data' => $meta_data, 'products' => $products, 'view' => 'home'];
 
     }
 }

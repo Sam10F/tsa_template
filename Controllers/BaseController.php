@@ -4,7 +4,6 @@ require_once "functions.php";
 
 
 class BaseController{
-
     //INCLUDE COMMON FUNCTIONALITIES FOR THE CONTROLLERS
 
 }
